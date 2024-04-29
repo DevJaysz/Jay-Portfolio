@@ -15,7 +15,7 @@ function Contact() {
             <div className="contact-container container grid">
                 <div className="contact-left">
                     <h1>Contact Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p></p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="" />

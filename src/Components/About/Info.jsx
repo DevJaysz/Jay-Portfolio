@@ -10,7 +10,7 @@ function Info() {
                 Experience
             </h3>
             <span className="about-subtitle">
-                N/A Years Working
+                8 Months
             </span>
         </div>
         <div className="about-box">
@@ -30,7 +30,7 @@ function Info() {
                 Support
             </h3>
             <span className="about-subtitle">
-                24/7
+                N/A
             </span>
         </div>
     </div>

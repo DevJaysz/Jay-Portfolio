@@ -3,9 +3,21 @@ import './Header.css'
 import logo from '../../assets/logo.png'
 
 function Header() {
+
+    /** Toggle-Menu**/
+   // window.addEventListener('scroll',function () {
+      //  const scrollup = document.querySelector(".scrollup")
+
+      //  if (this.screenY >= 560 ) scrollup.classList.add("show-scroll");
+//else scrollup.classList.remove('show-scroll')
+   // })
+
     /** Toggle-Menu**/
     const[Toggle,toggleMenu] = useState(false);
-  return (
+
+    const [activeNav,setActiveNav] = useState("#about");
+
+    return (
     
     <>
     <header className="header">
@@ -16,8 +28,9 @@ function Header() {
             
             <div className={Toggle ? "nav-menu show-menu" : "nav-menu"} >
                 <ul className="nav-list grid">
-                    <li className="nav-item active-link">
-                        <a href="#home" className="nav-link "></a>
+                    <li className="nav-item">
+                        <a href="#home" onClick={()=> setActiveNav ("#home")} 
+                            className= {activeNav === "#home" ? "nav-link active-link" : "nav-link"}></a>
                         <i className="uil uil-estate nav-icon"></i>
                         Home
                     </li>

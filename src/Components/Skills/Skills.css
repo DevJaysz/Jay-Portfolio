@@ -8,7 +8,7 @@
 .skills-content {
 
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #A1BE95;
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
@@ -19,6 +19,10 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5)
+}
+
+.section-subtitle {
+    color: var(--text-color);
 }
 
 .skill-box-wrap {
@@ -39,8 +43,12 @@
     column-gap: 0.5rem;
 }
 
-.skills .bx-badge-check {
-    font-size: 1rem;
+.bx {
+    color: var(--text-color);
+}
+
+.skills {
+    font-size: 1.3rem;
     color: var(--title-color);
 }
 
@@ -51,7 +59,8 @@
 }
 
 .skills-level {
-    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+    font-size: var(--small-font-size);
 }
 
 /*break-points*/

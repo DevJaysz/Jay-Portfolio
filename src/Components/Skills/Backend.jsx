@@ -9,16 +9,16 @@ function Backend() {
         <div className="skills-box">
             <div className="skills-group">
                 <div className="skills-data">
-                    <i class='bx bx-badge-check'></i>
+                <i class='bx bxl-php' ></i>
 
                     <div>
                         <h3 className="skills-name">PHP</h3>
-                        <span className="skills-level">Intermediate</span>
+                        <span className="skills-level">Basic</span>
                     </div>
                 </div>
 
                 <div className="skills-data">
-                    <i class='bx bx-badge-check'></i>
+                <i class='bx bxl-nodejs'></i>
 
                     <div>
                         <h3 className="skills-name">NodeJS</h3>
@@ -27,7 +27,7 @@ function Backend() {
                 </div>
 
                 <div className="skills-data">
-                    <i class='bx bx-badge-check'></i>
+                    <i class='bx bxl-python'></i>
 
                     <div>
                         <h3 className="skills-name">Python</h3>
@@ -49,7 +49,7 @@ function Backend() {
                 </div>
 
                 <div className="skills-data">
-                    <i class='bx bx-badge-check'></i>
+                <i class='bx bxl-firebase'></i>
 
                     <div>
                         <h3 className="skills-name">FireBase</h3>
