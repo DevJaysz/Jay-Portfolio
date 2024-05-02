@@ -1,21 +1,17 @@
 import React, { useState } from 'react'
+import { Link } from 'react-scroll';
 import './Header.css'
 import logo from '../../assets/logo.png'
 
 function Header() {
 
-    /** Toggle-Menu**/
-   // window.addEventListener('scroll',function () {
-      //  const scrollup = document.querySelector(".scrollup")
-
-      //  if (this.screenY >= 560 ) scrollup.classList.add("show-scroll");
-//else scrollup.classList.remove('show-scroll')
-   // })
-
+   
     /** Toggle-Menu**/
     const[Toggle,toggleMenu] = useState(false);
 
-    const [activeNav,setActiveNav] = useState("#about");
+    const [activeNav,setActiveNav] = useState("home");
+
+
 
     return (
     
@@ -27,44 +23,82 @@ function Header() {
             </a>
             
             <div className={Toggle ? "nav-menu show-menu" : "nav-menu"} >
+
                 <ul className="nav-list grid">
                     <li className="nav-item">
-                        <a href="#home" onClick={()=> setActiveNav ("#home")} 
-                            className= {activeNav === "#home" ? "nav-link active-link" : "nav-link"}></a>
-                        <i className="uil uil-estate nav-icon"></i>
-                        Home
+                    <Link to = 
+                            'home' spy= {true} smooth={true} offset={50} duration={500}  
+                            onClick={()=> setActiveNav ("home")} 
+                            className = {
+                            activeNav === "home" ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-estate nav-icon"></i>
+                            Home
+                          </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#about" className="nav-link"></a>
-                        <i className="uil uil-user nav-icon"></i>
-                        About
+                        <Link to = 
+                            'about' spy= {true} smooth={true} offset={-100} duration={500}  
+                            onClick={()=> setActiveNav ("about")} 
+                            className = {
+                            activeNav === "about" ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-user nav-icon"></i>
+                            About
+                          </Link>
+                
                     </li>
                     <li className="nav-item">
-                        <a href="#skills" className="nav-link"></a>
-                        <i className="uil uil-file-alt nav-icon"></i>
-                        Skills
+                        <Link to = 
+                            'skills' spy= {true} smooth={true} offset={10} duration={500}  
+                            onClick={()=> setActiveNav ('skills')} 
+                            className = {
+                            activeNav === 'skills' ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-file-alt nav-icon"></i>
+                            Skills
+                          </Link>
+                
                     </li>
                     <li className="nav-item">
-                        <a href="#services" className="nav-link"></a>
-                        <i className="uil uil-briefcase-alt nav-icon"></i>
-                        Services
+                         <Link to = 
+                            'services' spy= {true} smooth={true} offset={5} duration={500}  
+                            onClick={()=> setActiveNav ('services')} 
+                            className = {
+                            activeNav === 'services' ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-briefcase-alt nav-icon"></i>
+                            Services
+                          </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#portfolio" className="nav-link"></a>
-                        <i className="uil uil-scenery nav-icon"></i>
-                        Portfolio
+                        <Link to = 
+                            'portfolio' spy= {true} smooth={true} offset={5} duration={500}  
+                            onClick={()=> setActiveNav ('portfolio')} 
+                            className = {
+                            activeNav === 'portfolio' ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-scenery nav-icon"></i>
+                            Portfolio
+                          </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact" className="nav-link"></a>
-                        <i className="uil uil-message nav-icon"></i>
-                        Contact
+                         <Link to = 
+                            'contact' spy= {true} smooth={true} offset={150} duration={500}  
+                            onClick={()=> setActiveNav ('contact')} 
+                            className = {
+                            activeNav === 'contact' ? "nav-link active-link" : "nav-link"
+                            } >
+                             <i className="uil uil-message nav-icon"></i>
+                            Contact
+                          </Link>
                     </li>
                 </ul>
 
                 <i class="uil uil-times nav-close" onClick={() => toggleMenu(!Toggle)}></i>
             </div>
             <div className="nav-toggle" onClick={() => toggleMenu(!Toggle)}>
-                <i class="uil uil-apps"></i>
+            <i class="uil uil-ellipsis-v"></i>
             </div>
         </nav>
     </header>

@@ -2,6 +2,7 @@ import React from 'react'
 import Front from './Front'
 import Backend from './Backend'
 import './Skills.css'
+import Design from './Design'
 
 function Skills() {
   return (
@@ -10,6 +11,8 @@ function Skills() {
     <span className="section-subtitle">SKILLS</span>
 
     <div className="skills-container container grid">
+            <Design/>
+           
             <Front/>
             
             <Backend/>

@@ -11,7 +11,7 @@ function Qualification() {
   
   return (
     
-    <section className="qualification section">
+    <section className="qualification section" id='qualification'>
          <h2 className="section-title">QUALIFICATIONS</h2>
          <span className="section-subtitle">MY JOURNEY</span>
 
