@@ -117,10 +117,10 @@ function Services() {
 
 
                             <h3 className="services-modal-title">
-                                UI/UX  Designer
+                                UI/UX  DESIGN
                             </h3>
                             <p className="services-modal-description">
-                                Providing quality work to clients and companies.</p>
+                                Providing quality work. </p>
 
                                 <ul className="services-modal-services grid">
                                     <li className="services-modal-service">
@@ -195,10 +195,10 @@ function Services() {
 
 
                             <h3 className="services-modal-title">
-                                Graphic Designer
+                               GRAPHIC ARTIST
                             </h3>
                             <p className="services-modal-description">
-                                Providing quality work to clients and companies.</p>
+                                Providing quality work.</p>
 
                                 <ul className="services-modal-services grid">
                                     <li className="services-modal-service">
