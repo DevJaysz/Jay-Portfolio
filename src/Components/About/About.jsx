@@ -20,12 +20,12 @@ function About() {
             <p className="about-description">
               My objective is to secure a position in a company
               that facilitates the application of my knowledge
-              and ski ls. I aspire to maximize my capabilities
+              and skills. I aspire to maximize my capabilities
               unhindered, fostering both personal and
               professional development concurrently.
             </p>
 
-            <a download="" href={CV} className="button button--flex" id='download-button'>
+            <a download="/" href='' className="button button--flex" id='download-button'>
             Download CV
             <svg
                 class="button__icon"

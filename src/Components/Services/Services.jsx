@@ -39,10 +39,10 @@ function Services() {
 
 
                             <h3 className="services-modal-title">
-                            Product Designer
+                            FRONT-END WEB DEVELOPER
                             </h3>
                             <p className="services-modal-description">
-                                Providing quality work to clients and companies.</p>
+                                Providing quality work.</p>
                                 
                                 <ul className="services-modal-services grid">
                                     <li className="services-modal-service">
