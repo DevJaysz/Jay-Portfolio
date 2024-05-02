@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import { Link } from 'react-scroll';
 import './Header.css'
 import logo from '../../assets/logo.png'
@@ -84,7 +84,7 @@ function Header() {
                     </li>
                     <li className="nav-item">
                          <Link to = 
-                            'contact' spy= {true} smooth={true} offset={150} duration={500}  
+                            'contact' spy= {true} smooth={true} offset={15} duration={500}  
                             onClick={()=> setActiveNav ('contact')} 
                             className = {
                             activeNav === 'contact' ? "nav-link active-link" : "nav-link"
@@ -98,7 +98,7 @@ function Header() {
                 <i class="uil uil-times nav-close" onClick={() => toggleMenu(!Toggle)}></i>
             </div>
             <div className="nav-toggle" onClick={() => toggleMenu(!Toggle)}>
-            <i class="uil uil-ellipsis-v"></i>
+            <i class="uil uil-apps"></i>
             </div>
         </nav>
     </header>

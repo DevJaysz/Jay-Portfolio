@@ -1,10 +1,37 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
-
+import emailjs from '@emailjs/browser';
 function Contact() {
+
+        const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_2s5yy2v', 
+        'template_navjhka',
+         form.current, {
+        publicKey: 
+        'pBX1r4ZEVpF2pkdrM',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+    
+  
+
   return (
     
     <section className="contact section" id="contact">
@@ -31,11 +58,12 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <form  className="contact-right">
+                <form  ref={form} onSubmit={sendEmail}
+                    className="contact-right">
                     <label htmlFor="">Your Name</label>
                     <input type="text" placeholder='Enter Name' name='name' />
                     <label htmlFor="">Your Email</label>
-                    <input type="email" placeholder='Enter Email 'name="email" id="" />
+                    <input type="email" placeholder='Enter Email' name="email" id="" />
                     <label htmlFor="">Write your message here</label>
                     <textarea name="message"  rows="8" placeholder='Enter your message'></textarea>
                     <button type='submit' className="contact-submit">Submit now</button>
