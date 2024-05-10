@@ -176,6 +176,10 @@
 
     }
 
+    .card__title {
+        font-size: 15px;
+    }
+
     .card__description {
         font-size: 10px;
     }
@@ -187,5 +191,6 @@
         grid-template-columns: max-content;
         gap: 2px
     }
+
 
 }
