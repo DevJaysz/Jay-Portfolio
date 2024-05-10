@@ -3,7 +3,7 @@ import React from 'react'
 function Info() {
   return (
     <div className="about-info grid">
-        <div className="about-box">
+        <div className="about-box" data-aos="fade-right">
              <i class='bx bx-code-alt about-icon' ></i>
 
             <h3 className="about-title">
@@ -13,7 +13,8 @@ function Info() {
                 8 Months
             </span>
         </div>
-        <div className="about-box">
+        <div className="about-box" data-aos="fade-down"
+                                    >
             <i class='bx bx-medal about-icon' ></i>
 
             <h3 className="about-title">
@@ -23,7 +24,7 @@ function Info() {
                 N/A Projects
             </span>
         </div>
-        <div className="about-box">
+        <div className="about-box" data-aos="fade-left">
              <i class='bx bx-support about-icon' ></i>
 
             <h3 className="about-title">

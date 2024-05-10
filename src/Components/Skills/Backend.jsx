@@ -3,7 +3,7 @@ import React from 'react'
 function Backend() {
   return (
     
-    <div className="skills-content">
+    <div className="skills-content" data-aos="fade-left">
         <h3 className="skills-title">Back-End</h3>
         <div className="skill-box-wrap">
         <div className="skills-box">

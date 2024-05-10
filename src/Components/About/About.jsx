@@ -8,19 +8,19 @@ import Info from './Info'
 function About() {
   return (
     <section className="about section" id='about'>
-        <h2 className="section-title" data-aos="fade-left"
-                                      data-aos-anchor="#example-anchor"
-                                      data-aos-offset="500"
-                                      data-aos-duration="500">ABOUT ME</h2>
-        <span className="section-subtitle">INTRODUCTION</span>
+        <h2 className="section-title" data-aos="fade-right">ABOUT ME</h2>
+        <span className="section-subtitle" data-aos="fade-left">INTRODUCTION</span>
 
         <div className="about-container container grid">
-          <img src={profile} alt="" className='about-img'/>
+          <img src={profile} alt="" className='about-img' data-aos="flip-left"
+                                                          data-aos-easing="ease-out-cubic"
+                                                          data-aos-duration="500"/>
 
           <div className="about-data">
             <Info/>
 
-            <p className="about-description">
+            <p className="about-description" data-aos="fade-up"
+                                              data-aos-anchor-placement="top-bottom">
               My objective is to secure a position in a company
               that facilitates the application of my knowledge
               and skills. I aspire to maximize my capabilities
@@ -28,7 +28,8 @@ function About() {
               professional development concurrently.
             </p>
 
-            <a download="" href={CV} className="button button--flex" id='download-button'>
+            <a download="" href={CV} className="button button--flex" id='download-button' data-aos="fade-up"
+                                                                                         data-aos-anchor-placement="top-bottom">
             Download CV
             <svg
                 class="button__icon"
