@@ -1,41 +1,74 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
+import project1_img from '../assets/landscape-1.png'
+import project2_img from '../assets/landscape-2.png'
 import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import react from '../assets/react.png'
+import php from '../assets/php.png'
+import demo from '../assets/preview.png'
+
+
+
+
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        image: project1_img,
+        name: 'Lutong-Bahay',
+        demo: 'https://lutongbahaysite.vercel.app/',
+        icons: [
+            {
+                icon: html
+            },
+            {
+                icon: css
+            },
+            {
+                icon: react
+            }
+        ],
+        preview: demo,
+        description: 'Explore a treasure trove of traditional flavors and cherished family dishes, bringing the warmth and nostalgia of home-cooked meals to your table with every click.',
     },
     {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        image: project2_img,
+        name: 'Gemini-Clone',
+        demo: 'https://gemini-clone-landingpage.vercel.app/',
+        icons: [
+            {
+                icon: html
+            },
+            {
+                icon: css
+            },
+            {
+                icon: react
+            }
+        ],
+        preview: demo,
+        description: 'The Google GeminiAi Clone is a project designed to emulate the features and capabilities, an innovative artificial intelligence (AI) system developed by Google.',
     },
     {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        image: project3_img,
+        name: 'Student Services MS',
+        icons: [
+            {
+                icon: html
+            },
+            {
+                icon: css
+            },
+            {
+                icon: react
+            }
+            ,
+            {
+                icon: php
+            }
+        ],
+        preview: demo,
+        description: 'The Student System MS is a comprehensive platform designed to streamline administrative tasks and enhance the overall efficiency of managing student-related services.'
     },
-    {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
-    },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
-]
- 
+    // Add more objects as needed
+];
 export default mywork_data;

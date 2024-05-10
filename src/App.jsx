@@ -6,10 +6,11 @@ import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
 import Services from './Components/Services/Services';
 import Qualification from './Components/Qualification/Qualification';
-import Portfolio from './Components/Portfolio/Portfolio';
+import PortfolioCard from './Components/Portfolio/PortfolioCard';
 import React from 'react'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+  
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Skills/>
       <Qualification/>
       <Services/>
-      <Portfolio/>
+      <PortfolioCard/>
       <Contact/>
     </main>
 

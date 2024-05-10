@@ -11,13 +11,18 @@ function Portfolio() {
 
 
             <div className="portfolio-container container grid">
+              
                 <div className="portfolio-content">
+                  
                 {mywork_data.map((work,index)=>{
                 return <img key={index} src={work.w_img} alt="" />
+                  
+                
                  })}
+                 
                 
                 </div>
-
+                  
             </div>
 
     </section>

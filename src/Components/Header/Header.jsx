@@ -9,7 +9,7 @@ function Header() {
     /** Toggle-Menu**/
     const[Toggle,toggleMenu] = useState(false);
 
-    const [activeNav,setActiveNav] = useState("home");
+    const [activeNav,setActiveNav] = useState("#home");
 
 
 
