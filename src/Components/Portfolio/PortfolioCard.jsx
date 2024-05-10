@@ -11,7 +11,7 @@ function Portfolio() {
 
 
      
-      <ul class="cards-container container grid">
+      <div class="cards-container container grid">
         {mywork_data.map((work,index)=>( 
         <div key= {index} className="card">
             <img src={work.image} class="card__image" alt="" />
@@ -32,7 +32,7 @@ function Portfolio() {
             </div>
           </div>     
         ) )}
-    </ul>
+    </div>
     </section>
       
   )

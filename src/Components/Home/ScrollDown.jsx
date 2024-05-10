@@ -2,7 +2,10 @@ import React from 'react'
 
 function ScrollDown() {
   return (
-    <div className="home-scroll">
+    <div className="home-scroll"  data-aos="fade-down"
+                                  data-aos-anchor="#example-anchor"
+                                  data-aos-offset="500"
+                                  data-aos-duration="1000">
         <a href="#about" className="home-scroll-button button--flex">
         <svg
                 width="32px"

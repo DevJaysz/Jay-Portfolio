@@ -8,7 +8,10 @@ import Info from './Info'
 function About() {
   return (
     <section className="about section" id='about'>
-        <h2 className="section-title">ABOUT ME</h2>
+        <h2 className="section-title" data-aos="fade-left"
+                                      data-aos-anchor="#example-anchor"
+                                      data-aos-offset="500"
+                                      data-aos-duration="500">ABOUT ME</h2>
         <span className="section-subtitle">INTRODUCTION</span>
 
         <div className="about-container container grid">

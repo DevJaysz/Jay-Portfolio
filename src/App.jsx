@@ -10,7 +10,7 @@ import PortfolioCard from './Components/Portfolio/PortfolioCard';
 import React from 'react'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
-import PreLoader from './Components/PreLoader/PreLoader';
+
   
 
 
@@ -18,7 +18,7 @@ function App() {
   return (
    
     <>
-    <PreLoader/>
+   
     <Header/>
 
     <main className="main">

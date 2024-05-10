@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTypewriter,Cursor } from 'react-simple-typewriter'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Data() {
 
@@ -9,21 +11,23 @@ function Data() {
     typeSpeed: 120,
     deleteSpeed:40
   })
-
+  useEffect(()=>{
+    Aos.init()
+  },[])
 
 
   return (
-    <div className="home-data">
-        <h1 className="home-title">
+    <div  className="home-data" >
+        <h1 className="home-title" data-aos="fade-right"  data-aos-duration="500"  >
             Jay Estoquia II
         </h1>
-        <h3 className="home-subtitle">{typeEffect}<Cursor cursorStyle=';'/></h3>
-            <p className="home-description">
+        <h3 className="home-subtitle"  data-aos="fade-right"  data-aos-duration="1000">{typeEffect}<Cursor cursorStyle=';' /></h3>
+            <p className="home-description " data-aos="fade-right"  data-aos-duration="1500">
                  A Passionate Front - end Developer based in Makati, Philippines. I am a fresh graduate and a degree
                  holder in Bachelor of Science in Information Technology at Rizal
                  Technological University - Boni Campus.
             </p>
-        <a href="#contact" className="button button--flex" id='hello-button' >
+        <a href="#contact" className="button button--flex" id='hello-button'data-aos="fade-right"  data-aos-duration="2000" >
             Connect with me
             <svg
                   class="button_icon"
