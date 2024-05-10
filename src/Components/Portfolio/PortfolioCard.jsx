@@ -26,7 +26,7 @@ function Portfolio() {
                   ))}
                 </div>
                 </div>
-                <a href= {work.demo}> <img src={work.preview} alt="" className='demo-icon'/></a>
+                <a href= {work.demo} target='_blank'> <img src={work.preview} tar alt="" className='demo-icon'/></a>
               </div>
               <p class="card__description">{work.description}</p>
             </div>

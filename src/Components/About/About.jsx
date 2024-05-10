@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import profile from '../../assets/profile.jpg'
-import CV from '../../assets/Jay-CV.pdf'
+import CV from '../../assets/ESTOQUIA_CV.pdf'
 import Info from './Info'
 
 
@@ -25,7 +25,7 @@ function About() {
               professional development concurrently.
             </p>
 
-            <a download="/" href='' className="button button--flex" id='download-button'>
+            <a download="" href={CV} className="button button--flex" id='download-button'>
             Download CV
             <svg
                 class="button__icon"
