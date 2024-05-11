@@ -1,14 +1,14 @@
-import project1_img from '../assets/landscape-1.png'
-import project2_img from '../assets/landscape-2.png'
-import project3_img from '../assets/landscape-3.png'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import js from '../assets/js.png' 
-import react from '../assets/react.png'
-import php from '../assets/php.png'
-import bootstrap from '../assets/bootstrap.png' 
-import figma from '../assets/figma.png' 
-import demo from '../assets/preview.png'
+import project3_img from '../assets/ProjectsMockup/LutongBahay.png'
+import project2_img from '../assets/ProjectsMockup/GeminiClone.png'
+import project1_img from '../assets/ProjectsMockup/StudentServMS.png'
+import html from '../assets/techstack/html.png'
+import css from '../assets/techstack/css.png'
+import js from '../assets/techstack/js.png' 
+import react from '../assets/techstack/react.png'
+import php from '../assets/techstack/php.png'
+import bootstrap from '../assets/techstack/bootstrap.png' 
+import figma from '../assets/techstack/figma.png' 
+import demo from '../assets/techstack/preview.png'
 
 
 
@@ -17,7 +17,7 @@ import demo from '../assets/preview.png'
 
 const mywork_data = [
     {
-        image: project1_img,
+        image: project3_img,
         name: 'Lutong-Bahay',
         demo: 'https://lutongbahaysite.vercel.app/',
         icons: [
@@ -54,7 +54,7 @@ const mywork_data = [
         description: 'The Google GeminiAi Clone is a project designed to emulate the features and capabilities, an innovative artificial intelligence (AI) system developed by Google.',
     },
     {
-        image: project3_img,
+        image: project1_img,
         name: 'Student Services MS',
         icons: [
             {
