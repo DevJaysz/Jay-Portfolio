@@ -16,7 +16,10 @@ function Data() {
                                   data-aos-anchor="#example-anchor"
                                   data-aos-offset="500"
                                   data-aos-duration="1000">Jay Estoquia II</h1>
-      <h3 className="home-subtitle" >
+      <h3 className="home-subtitle"data-aos="fade-left"
+                                  data-aos-anchor="#example-anchor"
+                                  data-aos-offset="500"
+                                  data-aos-duration="1000">
         {typeEffect}<Cursor cursorStyle=';' />
       </h3>
       <p className="home-description" data-aos="fade-right" >
@@ -24,8 +27,7 @@ function Data() {
         holder in Bachelor of Science in Information Technology at Rizal
         Technological University - Boni Campus.
       </p>
-      <a href="#contact" className="button button--flex" id='hello-button'>
-        Connect with me
+      <a href="#contact" className="button button--flex" id='hello-button' data-aos="fade-up"> Connect with me
         <svg
           class="button_icon"
           xmlns="http://www.w3.org/2000/svg"

@@ -11,13 +11,13 @@ function Services() {
 
   return (
             
-        <section className="services section" id='services'>
+        <section className="services section" id='services' >
             <h2 className="section-title">SERVICES</h2>
             <span className="section-subtitle">WHAT I DO</span>
 
             <div className="services-container container grid">
                
-                <div className="services-content">
+                <div className="services-content" data-aos="fade-right" data-aos-duration="1500">
                     <div>
                         <i className="uil uil uil-brackets-curly services-icon"> </i>
                             <h3 className="services-title">FRONT-END 
@@ -95,7 +95,7 @@ function Services() {
 
                 </div>
 
-                <div className="services-content">
+                <div className="services-content" data-aos="fade-right" data-aos-duration="1000">
                     <div>
                         <i className="uil uil-web-grid services-icon"> </i>
                             <h3 className="services-title">UI/UX 
@@ -173,7 +173,7 @@ function Services() {
 
                 </div>
                 
-                <div className="services-content">
+                <div className="services-content" data-aos="fade-right" data-aos-duration="500">
                     <div>
                         <i className="uil uil-edit services-icon"> </i>
                             <h3 className="services-title">GRAPHIC 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Front() {
   return (
-    <div className="skills-content">
+    <div className="skills-content" data-aos="fade-up" >
         <h3 className="skills-title">Front-End</h3>
         <div className="skill-box-wrap">
         <div className="skills-box">

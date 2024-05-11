@@ -5,15 +5,16 @@ import mywork_data from '../../assets/mywork_data'
 
 function Portfolio() {
   return (
-    <section className="portfolio section" id="portfolio">
-             <h2 className="section-title">PORTFOLIO</h2>
+    <section className="portfolio section" id="portfolio" >
+             <h2 className="section-title" >PORTFOLIO</h2>
             <span className="section-subtitle">RECENT PROJECTS</span>
 
 
      
-      <div class="cards-container container grid">
+      <div class="cards-container container grid" data-aos="zoom-in">
         {mywork_data.map((work,index)=>( 
-        <div key= {index} className="card">
+        <div key= {index} className="card" data-aos="flip-left"
+                                            data-aos-duration="1000">
             <img src={work.image} class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">

@@ -34,7 +34,7 @@ function Contact() {
 
   return (
     
-    <section className="contact section" id="contact">
+    <section className="contact section" id="contact" data-aos="fade-up">
         <div><h2 className="section-title">CONTACT</h2>
             <span className="section-subtitle">CONNECT WITH ME</span>
         </div>

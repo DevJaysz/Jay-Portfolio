@@ -4,14 +4,14 @@ import './Qualification.css'
 
 function Qualification() {
   
-  const[toggleState,setToggleState] = useState(1);
+  const[toggleState,setToggleState] = useState(2);
   const toggleTab = (index) => {
       setToggleState(index);
   };
   
   return (
     
-    <section className="qualification section" id='qualification'>
+    <section className="qualification section" id='qualification' >
          <h2 className="section-title">QUALIFICATIONS</h2>
          <span className="section-subtitle">MY JOURNEY</span>
 
@@ -47,7 +47,7 @@ function Qualification() {
               ? "qualification-content  qualification-content-active" 
               : "qualification-content" }>
 
-              <div className="qualification-data">
+              <div className="qualification-data" >
                 <div>
                   <h3 className="qualification-title">
                   BACHELOR
@@ -128,8 +128,8 @@ function Qualification() {
               ? "qualification-content  qualification-content-active" 
               : "qualification-content" }>
               
-              <div className="qualification-data">
-                <div>
+              <div className="qualification-data" >
+                <div data-aos="fade-right" data-aos-duration="1000">
                   <h3 className="qualification-title">
                   FRONT-END DEVELOPER
                   </h3>
@@ -144,7 +144,7 @@ function Qualification() {
                 </div>
 
                 <div>
-                  <span className="qualification-rounder">
+                  <span className="qualification-rounder" data-aos="zoom-in" data-aos-duration="1500">
                    
                   </span>
                   <span  className="qualification-line">
@@ -158,7 +158,7 @@ function Qualification() {
 
                 <div>
                   
-                  <span className="qualification-rounder">
+                  <span className="qualification-rounder" data-aos="fade-down">
                    
                   </span>
                   <span className="qualification-line">
@@ -166,7 +166,7 @@ function Qualification() {
                   </span>
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-duration="1000">
                   <h3 className="qualification-title">
                     GRAPHIC DESIGNER
                   </h3>
@@ -182,7 +182,7 @@ function Qualification() {
               </div>
 
               <div className="qualification-data">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1500">
                   <h3 className="qualification-title">
                   DISPATCH ADMIN
                   </h3>
@@ -197,11 +197,11 @@ function Qualification() {
                 </div>
 
                 <div>
-                  <span className="qualification-rounder">
+                  <span className="qualification-rounder" data-aos="fade-down">
                    
                   </span>
                 
-                  <span className="qualification-line"></span>
+                  <span className="qualification-line" ></span>
                 </div>
               </div>
 
@@ -209,13 +209,13 @@ function Qualification() {
                 <div></div>
 
                 <div>
-                  <span className="qualification-rounder">
+                  <span className="qualification-rounder" data-aos="fade-down" >
                     
                   </span>
                   <span className="qualification-line"></span>
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-duration="1500">
                   <h3 className="qualification-title">
                   TECHNICAL SUPPORT
                   </h3>
@@ -231,7 +231,7 @@ function Qualification() {
               </div>
 
               <div className="qualification-data">
-                <div>
+              <div data-aos="fade-right" data-aos-duration="2000">
                   <h3 className="qualification-title">
                   APP DEV
                   </h3>
@@ -246,7 +246,7 @@ function Qualification() {
                 </div>
 
                 <div>
-                  <span className="qualification-rounder">
+                  <span className="qualification-rounder" data-aos="zoom-in" data-aos-duration="500">
                    
                   </span>
                 </div>

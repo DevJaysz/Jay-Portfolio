@@ -19,7 +19,10 @@ function Home() {
             <div className="home-content grid" >
                 <Social/>
     
-                <div className="home-img" data-aos="fade-left">
+                <div className="home-img" data-aos="fade-left"
+                                          data-aos-anchor="#example-anchor"
+                                          data-aos-offset="500"
+                                          data-aos-duration="1000">
 
                 </div>
 

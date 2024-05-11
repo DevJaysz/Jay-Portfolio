@@ -5,7 +5,7 @@ import mywork_data from '../../assets/mywork_data'
 
 function Portfolio() {
   return (
-    <section className="portfolio section" id="portfolio">
+    <section className="portfolio section" id="portfolio" >
              <h2 className="section-title">PORTFOLIO</h2>
             <span className="section-subtitle">RECENT PROJECTS</span>
 

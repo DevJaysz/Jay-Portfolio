@@ -11,13 +11,13 @@ function About() {
         <h2 className="section-title">ABOUT ME</h2>
         <span className="section-subtitle" >INTRODUCTION</span>
 
-        <div className="about-container container grid">
-          <img src={profile} alt="" className='about-img'/>
+        <div className="about-container container grid" >
+          <img src={profile} alt="" className='about-img'data-aos="flip-right"/>
 
           <div className="about-data">
             <Info/>
 
-            <p className="about-description">
+            <p className="about-description"  data-aos="fade-left">
               My objective is to secure a position in a company
               that facilitates the application of my knowledge
               and skills. I aspire to maximize my capabilities
@@ -25,7 +25,8 @@ function About() {
               professional development concurrently.
             </p>
 
-            <a download="" href={CV} className="button button--flex" id='download-button' >
+            <a download="" href={CV} className="button button--flex" id='download-button' data-aos="fade-up"
+                                                                                         data-aos-anchor-placement="top-bottom">
             Download CV
             <svg
                 class="button__icon"
