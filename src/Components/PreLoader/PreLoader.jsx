@@ -4,7 +4,7 @@ import './PreLoader.css'
 
 function PreLoader() {
 
-    useEffect(()=>{
+    useEffect(()=> { 
         preLoaderAnim()
     },[])
 

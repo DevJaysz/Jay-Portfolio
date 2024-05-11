@@ -10,24 +10,22 @@ import PortfolioCard from './Components/Portfolio/PortfolioCard';
 import React from 'react'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import PreLoader from './Components/PreLoader/PreLoader'
+//Aos Animation
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-  
-
-
+// Initialize Aos
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 2000 }); // Initialize Aos
+    Aos.init(); 
   }, []);
 
   return (
    
     <>
-   
+    <PreLoader/>
     <Header/>
-
     <main className="main">
    
       <Home/>

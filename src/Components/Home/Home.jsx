@@ -3,15 +3,9 @@ import './Home.css'
 import Social from './Social'
 import Data from './Data'
 import ScrollDown from './ScrollDown'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+
 
 function Home() {
-
-  useEffect(()=>{
-    Aos.init()
-  },[])
 
   return (
     <section className="home section" id="home">
