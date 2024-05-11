@@ -7,8 +7,8 @@ import Design from './Design'
 function Skills() {
   return (
    <section className="skills section" id="skills">
-    <h2 className="section-title" data-aos="fade-left">TECHNICAL</h2>
-    <span className="section-subtitle" data-aos="fade-right">SKILLS</span>
+    <h2 className="section-title">TECHNICAL</h2>
+    <span className="section-subtitle" >SKILLS</span>
 
     <div className="skills-container container grid">
             <Design/>

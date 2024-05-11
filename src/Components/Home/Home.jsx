@@ -19,7 +19,7 @@ function Home() {
             <div className="home-content grid" >
                 <Social/>
     
-                <div className="home-img" data-aos="fade-left"  data-aos-duration="1500">
+                <div className="home-img" data-aos="fade-left">
 
                 </div>
 

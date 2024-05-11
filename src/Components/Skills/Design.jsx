@@ -3,7 +3,7 @@ import React from 'react'
 function Design() {
   return (
     
-    <div className="skills-content" data-aos="fade-right">
+    <div className="skills-content" >
     <h3 className="skills-title">Design</h3>
     <div className="skill-box-wrap">
     <div className="skills-box">
