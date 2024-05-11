@@ -1,11 +1,15 @@
 import project1_img from '../assets/landscape-1.png'
 import project2_img from '../assets/landscape-2.png'
-import project3_img from '../assets/project_3.svg'
+import project3_img from '../assets/landscape-3.png'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
+import js from '../assets/js.png' 
 import react from '../assets/react.png'
 import php from '../assets/php.png'
+import bootstrap from '../assets/bootstrap.png' 
+import figma from '../assets/figma.png' 
 import demo from '../assets/preview.png'
+
 
 
 
@@ -25,7 +29,8 @@ const mywork_data = [
             },
             {
                 icon: react
-            }
+            },
+           
         ],
         preview: demo,
         description: 'Explore a treasure trove of traditional flavors and cherished family dishes, bringing the warmth and nostalgia of home-cooked meals to your table with every click.',
@@ -53,18 +58,25 @@ const mywork_data = [
         name: 'Student Services MS',
         icons: [
             {
+                icon: figma
+            },
+            {
                 icon: html
+            },
+            {
+                icon: bootstrap
             },
             {
                 icon: css
             },
             {
-                icon: react
-            }
-            ,
+                icon: js
+            },
             {
                 icon: php
-            }
+            }, 
+           
+          
         ],
         preview: demo,
         description: 'The Student System MS is a comprehensive platform designed to streamline administrative tasks and enhance the overall efficiency of managing student-related services.'

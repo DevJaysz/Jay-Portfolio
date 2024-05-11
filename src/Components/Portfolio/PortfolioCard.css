@@ -95,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1px;
+    gap: 5px;
 }
 
 .card_icons .card__icon {
