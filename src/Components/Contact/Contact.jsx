@@ -34,13 +34,13 @@ function Contact() {
 
   return (
     
-    <section className="contact section" id="contact" data-aos="fade-up">
+    <section className="contact section" id="contact">
         <div><h2 className="section-title">CONTACT</h2>
             <span className="section-subtitle">CONNECT WITH ME</span>
         </div>
          
             <div className="contact-container container grid">
-                <div className="contact-left">
+                <div className="contact-left" data-aos="fade-right">
                     <h1>Contact Me</h1>
                     <p></p>
                     <div className="contact-details">
@@ -58,7 +58,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <form  ref={form} onSubmit={sendEmail}
+                <form  data-aos="fade-left"  ref={form} onSubmit={sendEmail}
                     className="contact-right">
                     <label htmlFor="">Your Name</label>
                     <input type="text" placeholder='Enter Name' name='name' />
