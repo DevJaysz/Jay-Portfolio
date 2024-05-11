@@ -5,7 +5,7 @@ function Info() {
     <div className="about-info grid" >
         <div className="about-box" data-aos="fade-left"
                                   data-aos-duration="500">
-             <i class='bx bx-code-alt about-icon' ></i>
+             <i className ='bx bx-code-alt about-icon' ></i>
 
             <h3 className="about-title">
                 Experience
@@ -16,7 +16,7 @@ function Info() {
         </div>
         <div className="about-box" data-aos="fade-left"
                                   data-aos-duration="700">
-            <i class='bx bx-medal about-icon' ></i>
+            <i className='bx bx-medal about-icon' ></i>
 
             <h3 className="about-title">
                 Completed
@@ -27,7 +27,7 @@ function Info() {
         </div>
         <div className="about-box" data-aos="fade-left"
                                   data-aos-duration="1000">
-             <i class='bx bx-support about-icon' ></i>
+             <i className='bx bx-support about-icon' ></i>
 
             <h3 className="about-title">
                 Support

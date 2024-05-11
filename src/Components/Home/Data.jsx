@@ -29,7 +29,7 @@ function Data() {
       </p>
       <a href="#contact" className="button button--flex" id='hello-button' data-aos="fade-up"> Connect with me
         <svg
-          class="button_icon"
+          className="button_icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

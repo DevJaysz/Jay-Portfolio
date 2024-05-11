@@ -9,7 +9,7 @@ function Design() {
     <div className="skills-box">
         <div className="skills-group">
             <div className="skills-data">
-            <i class='bx bxl-adobe'></i>
+            <i className='bx bxl-adobe'></i>
                     
                 <div>
                     <h3 className="skills-name">Adobe Photoshop</h3>
@@ -19,7 +19,7 @@ function Design() {
             </div>
 
             <div className="skills-data">
-            <i class='bx bxl-adobe'></i>
+            <i className='bx bxl-adobe'></i>
 
                 <div>
                     <h3 className="skills-name">Adobe Illustrator</h3>
@@ -28,7 +28,7 @@ function Design() {
             </div>
 
             <div className="skills-data">
-            <i class='bx bxl-figma'></i>
+            <i className='bx bxl-figma'></i>
                 <div>
                     <h3 className="skills-name">Figma</h3>
                     <span className="skills-level">Basic</span>

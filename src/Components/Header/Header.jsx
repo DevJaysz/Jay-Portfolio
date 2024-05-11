@@ -21,8 +21,7 @@ function Header() {
             <a href="index.html" className="nav-logo">
                 <img src={logo} alt="" />
             </a>
-            
-            <div className={Toggle ? "nav-menu show-menu" : "nav-menu"} >
+            <div className = {Toggle ? "nav-menu show-menu" : "nav-menu"} >
 
                 <ul className="nav-list grid">
                     <li className="nav-item">
@@ -95,10 +94,10 @@ function Header() {
                     </li>
                 </ul>
 
-                <i class="uil uil-times nav-close" onClick={() => toggleMenu(!Toggle)}></i>
+                <i className="uil uil-times nav-close" onClick={() => toggleMenu(!Toggle)}></i>
             </div>
             <div className="nav-toggle" onClick={() => toggleMenu(!Toggle)}>
-            <i class="uil uil-apps"></i>
+            <i className="uil uil-apps"></i>
             </div>
         </nav>
     </header>

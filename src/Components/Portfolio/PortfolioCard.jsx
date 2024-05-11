@@ -11,15 +11,15 @@ function Portfolio() {
 
 
      
-      <div class="cards-container container grid" data-aos="zoom-in">
+      <div className="cards-container container grid" data-aos="zoom-in">
         {mywork_data.map((work,index)=>( 
         <div key= {index} className="card" data-aos="flip-left" data-aos-duration="1000">
-            <img src={work.image} class="card__image" alt="" />
-            <div class="card__overlay">
-              <div class="card__header">
+            <img src={work.image} className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
                 <div className="card-header-right">
-                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                  <h3 class="card__title">{work.name}</h3>       
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                  <h3 className="card__title">{work.name}</h3>       
                   <div className="card_icons">
                   {work.icons.map((icon, idx) => (
                     <img key={idx} src={icon.icon} alt="" className='card__icon'  />
@@ -28,7 +28,7 @@ function Portfolio() {
                 </div>
                 <a href= {work.demo} target='_blank'> <img src={work.preview} tar alt="" className='demo-icon'/></a>
               </div>
-              <p class="card__description">{work.description}</p>
+              <p className="card__description">{work.description}</p>
             </div>
           </div>     
         ) )}

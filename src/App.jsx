@@ -22,10 +22,11 @@ function App() {
   }, []);
 
   return (
+    
    
-    <>
-    <PreLoader/>
+    <> 
     <Header/>
+
     <main className="main">
    
       <Home/>
