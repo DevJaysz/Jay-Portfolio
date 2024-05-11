@@ -14,7 +14,7 @@ function Portfolio() {
       <div class="cards-container container grid" data-aos="zoom-in">
         {mywork_data.map((work,index)=>( 
         <div key= {index} className="card" data-aos="flip-left"
-                                            data-aos-duration="1000">
+                                            data-aos-duration="300">
             <img src={work.image} class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
