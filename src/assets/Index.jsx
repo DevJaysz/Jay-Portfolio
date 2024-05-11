@@ -32,8 +32,7 @@ export const preLoaderAnim = () => {
     })
     
     // Hide scrollbar on landing
-    
-    
+    .to(".landing", { duration: 0.05, css: { overflowY: "hidden", height: "90vh" } })
     // Show scrollbar on body
     .to("body", { duration: 0.1, css: { overflowY: "scroll" }, ease: "power3.inOut" })
     
