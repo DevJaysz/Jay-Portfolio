@@ -70,6 +70,9 @@
     .nav {
         height: var(--header-height);
     }
+    .nav-container{
+        position: fixed;
+    }
 
     .nav-menu {
         position: fixed;

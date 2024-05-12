@@ -132,6 +132,7 @@
     .home-content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.5rem;
+        
     }
 
     .home-subtitle {
@@ -165,9 +166,9 @@
 
     .home-content {
         grid-template-columns: 0.5fr 3fr;
-        padding-top: 3.5rem;
+        padding-top: 1rem;
     }
-
+  
     .home-img {
         order: initial;
         justify-self: initial;

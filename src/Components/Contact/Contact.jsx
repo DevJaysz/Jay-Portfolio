@@ -27,7 +27,9 @@ function Contact() {
   return (
     <section className="contact section" id="contact">
       <div>
-        <h2 className="section-title">CONTACT</h2>
+        <h2 className="section-title" data-aos="flip-right">
+          CONTACT
+        </h2>
         <span className="section-subtitle">CONNECT WITH ME</span>
       </div>
 
@@ -51,10 +53,10 @@ function Contact() {
           </div>
         </div>
         <form
-          data-aos="fade-left"
           ref={form}
           onSubmit={sendEmail}
           className="contact-right"
+          data-aos="fade-up"
         >
           <label htmlFor="">Your Name</label>
           <input type="text" placeholder="Enter Name" name="name" />
