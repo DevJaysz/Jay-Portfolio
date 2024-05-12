@@ -203,8 +203,37 @@ function Qualification() {
                 </div>
               </div>
             </div>
-
             <div className="qualification-data">
+              <div data-aos="zoom-in-up">
+                <h3 className="qualification-title">GRAPHIC ARTIST</h3>
+                <span className="qualification-subtitle">
+                  <h3>DIGITAL</h3>
+                  FREELANCE
+                </span>
+                <div className="qualification-calendar">
+                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                </div>
+              </div>
+
+              <div>
+                <span
+                  className="qualification-rounder"
+                  data-aos="zoom-in-down"
+                ></span>
+
+                <span className="qualification-line"></span>
+              </div>
+            </div>
+            <div className="qualification-data">
+              <div></div>
+
+              <div>
+                <span
+                  className="qualification-rounder"
+                  data-aos="zoom-in-down"
+                ></span>
+              </div>
+
               <div data-aos="zoom-in-up">
                 <h3 className="qualification-title">APP DEV</h3>
                 <span className="qualification-subtitle">
@@ -214,14 +243,6 @@ function Qualification() {
                 <div className="qualification-calendar">
                   <i className="uil uil-calendar-alt"></i> 2019
                 </div>
-              </div>
-
-              <div>
-                <span
-                  className="qualification-rounder"
-                  data-aos="zoom-in"
-                  data-aos-duration="500"
-                ></span>
               </div>
             </div>
           </div>
