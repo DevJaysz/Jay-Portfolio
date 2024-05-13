@@ -56,6 +56,7 @@ const mywork_data = [
     {
         image: project1_img,
         name: 'Student Services MS',
+        demo: 'https://rtu-ssms-capstone.vercel.app/',
         icons: [
             {
                 icon: figma
