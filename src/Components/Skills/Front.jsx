@@ -47,7 +47,7 @@ function Front() {
 
               <div>
                 <h3 className="skills-name">Bootstrap</h3>
-                <span className="skills-level">Basic</span>
+                <span className="skills-level">Intermediate</span>
               </div>
             </div>
 
@@ -56,7 +56,7 @@ function Front() {
 
               <div>
                 <h3 className="skills-name">Git</h3>
-                <span className="skills-level">Basic</span>
+                <span className="skills-level">Intermediate</span>
               </div>
             </div>
 
