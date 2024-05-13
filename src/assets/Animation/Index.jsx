@@ -6,14 +6,21 @@ const tl = gsap.timeline();
 // Function to animate preloader
 export const preLoaderAnim = () => {
   // Hide scrollbar on body
-  tl.to("body", { duration: 0.1, css: { overflowY: "hidden" }, ease: "power3.inOut" })
-  
+  tl.to("body", {
+    duration: 0.1,
+    css: { overflowY: "hidden" },
+    ease: "power3.inOut",
+  })
+
     // Scroll landing section with 90vh height
-    .to(".landing", { duration: 0.05, css: { overflowY: "scroll", height: "90vh" } })
-    
+    .to(".landing", {
+      duration: 0.05,
+      css: { overflowY: "scroll", height: "90vh" },
+    })
+
     // Fade in text container
     .to(".texts-container", { duration: 0, opacity: 1, ease: "Power3.easeOut" })
-    
+
     // Animate text elements
     .from(".texts-container span", {
       duration: 1.5,
@@ -25,20 +32,32 @@ export const preLoaderAnim = () => {
     })
     .to(".texts-container span", {
       duration: 1,
-      y: 70,
+      y: 90,
       skewY: -20,
       stagger: 0.2,
       ease: "Power3.easeOut",
     })
-    
+
     // Hide scrollbar on landing
-    .to(".landing", { duration: 0.05, css: { overflowY: "hidden", height: "90vh" } })
+    .to(".landing", {
+      duration: 0.05,
+      css: { overflowY: "hidden", height: "90vh" },
+    })
     // Show scrollbar on body
-    .to("body", { duration: 0.1, css: { overflowY: "scroll" }, ease: "power3.inOut" })
-    
+    .to("body", {
+      duration: 0.1,
+      css: { overflowY: "scroll" },
+      ease: "power3.inOut",
+    })
+
     // Fade in landing top sub
-    .from(".landing__top .sub", { duration: 1, opacity: 0, y: 80, ease: "expo.easeOut" })
-    
+    .from(".landing__top .sub", {
+      duration: 1,
+      opacity: 0,
+      y: 80,
+      ease: "expo.easeOut",
+    })
+
     // Hide preloader
     .to(
       ".preloader",
