@@ -12,7 +12,7 @@ function Data() {
   return (
     <div className="home-data">
       <h1 className="home-title" data-aos="fade-right" data-aos-duration="500">
-        Jay Estoquia II
+        Jay Estoquia
       </h1>
       <h3
         className="home-subtitle"
