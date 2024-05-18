@@ -3,8 +3,18 @@ import "./About.css";
 import profile from "../../assets/profile.jpg";
 import CV from "../../assets/ESTOQUIA_CV.pdf";
 import Info from "./Info";
+import Lottie from "react-lottie";
+import animationData from "../../assets/Animation/Animation - 1716041146584.json";
 
 function About() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <section className="about section" id="about">
       <h2 className="section-title" data-aos="flip-right">
@@ -13,8 +23,9 @@ function About() {
       <span className="section-subtitle">INTRODUCTION</span>
 
       <div className="about-container container grid">
-        <img src={profile} alt="" className="about-img" data-aos="flip-left" />
-
+        <div className="about-img">
+          <Lottie options={defaultOptions} />
+        </div>
         <div className="about-data">
           <Info />
 

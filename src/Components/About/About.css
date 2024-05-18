@@ -11,9 +11,8 @@
 }
 
 .about-img {
-    width: 450px;
-    border-radius: 1.5rem;
-    justify-self: center;
+    width: 650px;
+   justify-self: center;
 }
 
 .about-info {
@@ -59,7 +58,8 @@
     }
 
     .about-img {
-        width: 220px;
+        width: 350px;
+        justify-self: center;
     }
 
     .about-box {
@@ -83,7 +83,9 @@
 /*MD-Device*/
 
 @media screen and (max-width:576px) {
-    
+    .about-img {
+        width: 300px;
+    }
 
     .about-info {
         grid-template-columns: repeat(3, 1fr);

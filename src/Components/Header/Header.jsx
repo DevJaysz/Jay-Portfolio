@@ -39,7 +39,7 @@ function Header() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-5}
                   duration={500}
                   onClick={() => setActiveNav("about")}
                   className={
