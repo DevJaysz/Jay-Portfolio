@@ -16,7 +16,9 @@
     column-gap: rem;
 
 }
-
+.nav img{
+    width: 250px;
+}
 
 .nav-container {
     color: var(--title-color-dark);
@@ -69,6 +71,9 @@
 
     .nav {
         height: var(--header-height);
+    }
+    .nav img{
+        width: 150px;
     }
     .nav-container{
         position: fixed;
